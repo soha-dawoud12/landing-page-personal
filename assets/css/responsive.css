@@ -1,0 +1,325 @@
+
+/*@media (min-width: 1400px) {*/
+/*    .socials li a svg {*/
+/*        width: 24px;*/
+/*        height: 24px;*/
+/*    }*/
+
+/*}*/
+
+
+
+
+
+.header {
+
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*z-index: 10;*/
+    /*right: 0;*/
+
+}
+
+
+
+
+@media (min-width: 1640px) {
+.container{
+    max-width: 1320px;
+}
+    h4.logo {
+        font-size: 41px;
+
+    }
+
+    h6 {
+        font-size: 30px;
+    }
+
+    .blocks, .banner .container, nav {
+        padding: 0 2.2rem;
+    }
+    .socials li a svg {
+        width: 24px;
+        height: 24px;
+    }
+    .section-text button {
+        width: 280px;
+        height: 46px;
+    }
+
+    .name-talal{
+        position: absolute;
+        left: -5%;
+        top: 60%;
+        z-index: 50;
+
+    }
+    .position-talal {
+        top: 13%;
+        right: -7%;
+    }
+
+    .banner-background {
+        height: 13rem;
+        bottom: 11.6%;
+        /*width: 100%;*/
+        /*z-index: -2;*/
+
+
+        margin-top: 11%;
+    }
+    h1.head-name {
+        font-size: 85px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    p, h5 {
+        font-size: 20px;
+    }
+
+    .experiences-image {
+        width: 113px;
+        height: 113px;
+
+    }
+
+    .experiences .experiences-image svg {
+        max-width: 48px;
+        max-height: 45px;
+    }
+
+    .experiences .experiences-image {
+
+        padding: 1.4rem;
+
+
+    }
+
+    .img-background-section-2 img {
+        width: auto;
+    }
+
+
+    /* start experiences-page*/
+    .experiences-page .banner-experiences-page {
+
+        height: 248px;
+    }
+
+    .experiences-page .banner-experiences-page h1.head-experiences-page {
+        font-size: 62px;
+    }
+    /*.personal-img {*/
+
+    /*    top: 1%;*/
+    /*}*/
+}
+
+@media (max-width: 1200px) {
+    a.navbar-brand img {
+        width: 72%;
+    }
+
+    .blocks, .banner .container, nav {
+        padding: 0 2rem;
+    }
+
+
+
+    .experiences-elements {
+        max-width: 28%;
+        flex: 0 0 28%;
+
+
+    }
+
+
+
+    .socials li a svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .section-2 .about {
+        width: 75%;
+    }
+
+    .title-image-talal h5{
+        font-size: 13px;
+    }
+
+
+}
+@media (max-width: 992px) {
+    .text-banner {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .banner-background {
+
+        bottom: 26px;
+
+    }
+    h4.logo{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-3 .section3-img-first {
+        order: 2;
+    }
+
+    footer .aloo-footer ul li a {
+
+        margin-right: 12px;
+    }
+
+    .banner-background {
+        display: none;
+    }
+    .home-part-1 {
+        text-align: center;}
+    .home-part-2 {
+        order: -1;
+
+    }
+    .section-2 .about {
+        width: 95%;
+    }
+
+    .home-part-1 .head-name {
+        margin-bottom: 10px;
+        background-color: #EEEEEE;
+        padding: 10px 0;
+    }
+    h1.head-name {
+font-size: 34px;
+        margin-top: -53px;
+    }
+}
+
+@media (max-width: 576px) {
+    h4.logo {
+        font-size: 20px;
+
+    }
+
+    .blocks, .banner .container {
+        padding: 0;
+    }
+
+    .section-text button {
+        width: 100%;
+        height: 40px;
+    }
+
+
+
+
+    h2 {
+        font-size: 34px;
+    }
+
+    h6 {
+        font-size: 24px;
+    }
+    h1.head-name {
+
+        margin-top: 8px;
+
+    }
+
+    /*h4 {*/
+    /*    font-size: 18px;*/
+    /*}*/
+    p {
+        font-weight: normal;
+    }
+
+    .section-2 {
+
+        padding: 2rem 0;
+    }
+
+    .home-part-1 {
+
+        margin-top: -12%;
+    }
+
+    .text-banner {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
+    .experiences-elements {
+        max-width: 50%;
+        flex: 0 0 50%;
+
+        /*width: 50px;*/
+        /*height: 50px;*/
+        margin: 10px 0;
+    }
+
+    .experiences-elements:last-child {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .experiences-page .banner-experiences-page {
+
+        height: 59px;
+    }
+
+    .experiences-page .banner-experiences-page h1.head-experiences-page {
+        font-size: 34px;
+    }
+
+   .experiences-page{
+       text-align: center;
+   }
+
+    body{
+
+        min-height: 90vh;
+        margin-bottom: 64px;
+
+    }
+
+
+    .sections {
+        padding-top: 20px;
+        /*margin-bottom: 5rem;*/
+
+    }
+    .section-2-mobile-hidden , .footer-mobile-hidden{
+        display: none;
+    }
+
+    .title-image-talal h5{
+        font-size: 13px;
+    }
+    .position-talal {
+        top: 6%;
+        right: -3%;
+    }
+    .name-talal {
+
+        left: -1%;
+        top: 30%;
+
+    }
+
+
+    .experiences-page .banner-experiences-page h1.head-experiences-page {
+        font-size: 24px;
+
+    }
+}
+

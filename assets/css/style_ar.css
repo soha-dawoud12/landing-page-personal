@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url(../fonts/JF-Flat-Regular.ttf);
+}
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: "JF Flat Regular";
+    font-weight: normal;
+
+}
+
+
+/*images background section 2*/
+.img-1-background-section-2 {
+
+
+
+    /*right: 0;*/
+}
+
+.img-2-background-section-2 {
+
+    /*left: 0;*/
+
+
+}
+@media (max-width: 576px){
+    .experiences-page .banner-experiences-page h1.head-experiences-page {
+        font-size: 32px;
+
+    }
+}

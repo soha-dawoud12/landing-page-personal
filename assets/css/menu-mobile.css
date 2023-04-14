@@ -1,0 +1,35 @@
+.menu-mobile{
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 555;
+    left: 0;
+
+
+}
+
+/*.navbar a {*/
+/*   display: flex;*/
+/*    display: block;*/
+/*    color: #f2f2f2;*/
+/*    text-align: center;*/
+/*    padding: 14px 16px;*/
+/*    text-decoration: none;*/
+/*    font-size: 17px;*/
+/*}*/
+/*body{*/
+/*    min-height: 90vh;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+/*.navbar a:hover {*/
+/*    background: #ddd;*/
+/*    color: black;*/
+/*}*/
+
+/*.main {*/
+/*    padding: 16px;*/
+/*    margin-top: 30px;*/
+/*    height: 1500px; !* Used in this example to enable scrolling *!*/
+/*}*/
